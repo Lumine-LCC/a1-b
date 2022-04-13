@@ -9,7 +9,8 @@ const fs = require("fs");
 
 if (!fs.existsSync("./node_modules")) {
   console.log("Installing Libraries!");
-  execSync('npm install discord.js express nodemon').then('\n\nInstallation was successful!');
+  execSync("npm install -g nodemon");
+  execSync('npm install discord.js express').then('\n\nInstallation was successful!');
 } else {
   console.log("Libraries already installed!");
 
