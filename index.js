@@ -2,6 +2,7 @@
 // Author: Auth
 // Date: 2022-12-04
 // Version: 0.0.2
+// Status: beta
 
 const { execSync } = require("child_process");
 const fs = require("fs");
