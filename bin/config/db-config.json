@@ -1,0 +1,7 @@
+{
+    "uri": "your-database-uri",
+    "db_host": "your-database-host",
+    "db_user": "your-database-user",
+    "db_pass": "your-database-pass",
+    "db_port": "your-database-port"
+}
