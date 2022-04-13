@@ -1,7 +1,7 @@
 // Discord: https://discord.gg/Yx2NHSNQrb
 // Author: Auth
 // Date: 2022-12-04
-// Version: 1.0.0
+// Version: 0.0.2
 
 const { execSync } = require("child_process");
 const fs = require("fs");
