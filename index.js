@@ -28,7 +28,9 @@ if (!fs.existsSync("./node_modules")) {
   const port = config.port;
 
   // Connections
+  const { Handler } = require('./source/events/server/messageCreate.js');
 
+  
   ["handler"].forEach((_) => {
     require(`./source/${_}.js`)
   });
